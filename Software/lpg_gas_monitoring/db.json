@@ -1,0 +1,15 @@
+{
+	"data": [
+		{
+			"id": 1,
+			"percentage": {
+				"force": 50,
+				"gas": 100
+			},
+			"value": {
+				"force": 700,
+				"gas": 330
+			}
+		}
+	]
+}

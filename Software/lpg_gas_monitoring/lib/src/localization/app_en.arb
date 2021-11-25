@@ -1,0 +1,6 @@
+{
+  "appTitle": "lpg_gas_monitoring",
+  "@appTitle": {
+    "description": "The title of the application"
+  }
+}
