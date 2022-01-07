@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "Software\\lpg_gas_monitoring"
+		},
+		{
+			"path": "Hardware\\LPG Gas System"
 		}
 	],
 	"settings": {}

@@ -12,21 +12,20 @@ ESP8266WebServer http_rest_server(HTTP_REST_PORT);
 
 
 String get_data() {
-    int gas_per = 100;
-    int force_per = 100;
-    int gas_val = 255;
-    int force_val = 100;
+    // int gas_per = 100;
+    // int force_per = 100;
+    // int gas_val = 255;
+    // int force_val = 100;
     String str;
 
     DynamicJsonDocument doc(1024);
-    doc["data"][0]["id"] = 1;
-    doc["data"][0]["percentage"]["force"] = 100;
-    doc["data"][0]["percentage"]["gas"] = 100;
+    doc["id"] = 1;
+    doc["percentage"]["force"] = 100;
+    doc["percentage"]["gas"] = 100;
+    doc["value"]["force"] = 100;
+    doc["value"]["gas"] = 100;
 
-    doc["data"][0]["value"]["gas"] = 100;
-    doc["data"][0]["value"]["gas"] = 100;
-
-    serializeJson(doc, str);
+    serializeJsonPretty(doc, str);
     return str;
 }
 
@@ -60,7 +59,7 @@ void config_rest_server_routing() {
   });
 
   // Add your REST APIs & the functions to be run when call those APIs
-  // http://192.168.1.7/tempdata
+  // http://network_ip/data
   http_rest_server.on("/data", HTTP_GET, []() {
     http_rest_server.send(200, "text/json", get_data());
   });
