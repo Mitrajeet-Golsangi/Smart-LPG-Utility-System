@@ -12,10 +12,11 @@ class SensorAPI {
   static Uri constructURI(String host, String port) {
     final Uri url;
     if (port != '0000') {
-      url = Uri.parse("$protocol://$host:$port/${SensorConstants.path}/1");
+      url = Uri.parse("$protocol://$host:$port/${SensorConstants.path}");
     } else {
-      url = Uri.parse("$protocol://$host/${SensorConstants.path}/1");
+      url = Uri.parse("$protocol://$host");
     }
+    print("$protocol://$host/${SensorConstants.path}");
     return url;
   }
 
@@ -29,6 +30,7 @@ class SensorAPI {
         return http.Response("error", 500);
       });
       if (response.statusCode == 200) {
+        print(response.body);
         return response.body;
       } else {
         return '{"error": "${response.statusCode}"}';

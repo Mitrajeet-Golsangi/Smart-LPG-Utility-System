@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex CSB-Group3-ResearchPaper"] 1636959191 "CSB-Group3-ResearchPaper.aux" "CSB-Group3-ResearchPaper.bbl" "CSB-Group3-ResearchPaper" 1636959797
+["bibtex CSB-Group3-ResearchPaper"] 1640595379 "CSB-Group3-ResearchPaper.aux" "CSB-Group3-ResearchPaper.bbl" "CSB-Group3-ResearchPaper" 1640775165
   "C:/Users/mitra/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "CSB-Group3-ResearchPaper.aux" 1636959796 1414 e276976f18799728fe1eb32eb6bc50bb "pdflatex"
-  "references.bib" 1636956327 2008 3420fceb7bff03dd306a6c48d1453450 ""
+  "CSB-Group3-ResearchPaper.aux" 1640609316 2349 7d683a5e3623b43e20445f0a098e5ced "pdflatex"
+  "references.bib" 1640591957 2417 0ed34de286ae36d2df2f4b92e6864788 ""
   (generated)
-  "CSB-Group3-ResearchPaper.blg"
   "CSB-Group3-ResearchPaper.bbl"
-["pdflatex"] 1636959791 "d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex" "CSB-Group3-ResearchPaper.pdf" "CSB-Group3-ResearchPaper" 1636959797
+  "CSB-Group3-ResearchPaper.blg"
+["pdflatex"] 1640609311 "d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex" "CSB-Group3-ResearchPaper.pdf" "CSB-Group3-ResearchPaper" 1640775165
   "C:/Users/mitra/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1621329896 9407463 f1dacb2296833f297165e50dd0fa7730 ""
   "C:/Users/mitra/AppData/Local/MiKTeX/pdftex/config/pdftex.map" 1626072867 169627 6676636913177e3701826588bfd6ea98 ""
   "C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -94,14 +94,16 @@
   "C:/Users/mitra/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ot1ptm.fd" 1585253778 1007 15056f4a61917ceed3a44e4ac11fcc52 ""
   "C:/Users/mitra/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/ts1ptm.fd" 1585253778 653 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
   "C:/Users/mitra/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1463135581 57049 34128738f682d033422ca125f82e5d62 ""
-  "CSB-Group3-ResearchPaper.aux" 1636959796 1414 e276976f18799728fe1eb32eb6bc50bb "pdflatex"
-  "CSB-Group3-ResearchPaper.bbl" 1636959192 2221 ab69c56569529c9918816e8b3b907f75 "bibtex CSB-Group3-ResearchPaper"
-  "CSB-Group3-ResearchPaper.tex" 1636959790 8063 fc805dfec79bb4a39fb759cfcf5430ba ""
+  "CSB-Group3-ResearchPaper.aux" 1640609316 2349 7d683a5e3623b43e20445f0a098e5ced "pdflatex"
+  "CSB-Group3-ResearchPaper.bbl" 1640595379 2555 74fe7debf4aec9af7a0c31a77da3679f "bibtex CSB-Group3-ResearchPaper"
+  "CSB-Group3-ResearchPaper.tex" 1640775158 12749 045920c193f43ae30b3bf69a5368087b ""
+  "Images/AppWorkflow1.drawio.png" 1640590814 38984 31710b3993d03a6659e0a8044ff5242a ""
+  "Images/BLoC_Example.drawio.png" 1640434257 35165 e5e140ee03b63a58e06b2d7f24436fa3 ""
   "Images/BlockDiagram.png" 1636883821 28517 e6f4ed09b8943010653fbdaaa4d6db76 ""
   "Images/Schematic.png" 1636887374 10551 0796fa385c005cab0a456482cfdf06eb ""
   "Images/Simulation.png" 1636884773 125406 aa11cb0db9570a055da40e222bc7b2e9 ""
-  "d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex" 1636959790 8063 fc805dfec79bb4a39fb759cfcf5430ba ""
+  "d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex" 1640775158 12749 045920c193f43ae30b3bf69a5368087b ""
   (generated)
   "CSB-Group3-ResearchPaper.pdf"
-  "CSB-Group3-ResearchPaper.aux"
   "CSB-Group3-ResearchPaper.log"
+  "CSB-Group3-ResearchPaper.aux"

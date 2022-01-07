@@ -6,5 +6,5 @@ class SensorConstants {
 
   static const path = 'data';
 
-  static const timerDelay = 1500;
+  static const timerDelay = 5000;
 }

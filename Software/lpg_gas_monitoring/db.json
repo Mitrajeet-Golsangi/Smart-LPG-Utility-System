@@ -4,11 +4,11 @@
 			"id": 1,
 			"percentage": {
 				"force": 50,
-				"gas": 100
+				"gas": 200
 			},
 			"value": {
-				"force": 700,
-				"gas": 330
+				"force": 450,
+				"gas": 400
 			}
 		}
 	]

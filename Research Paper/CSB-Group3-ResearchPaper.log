@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.18)  15 NOV 2021 12:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.18)  27 DEC 2021 18:18
 entering extended mode
 **"d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex"
 (d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex
@@ -331,6 +331,31 @@ Underfull \hbox (badness 1910) in paragraph at lines 197--199
 []\OT1/ptm/m/n/10 After com-ple-tion of the schematic and check-ing the
  []
 
+[2 <./Images/BlockDiagram.png> <./Images/Simulation.png> <./Images/Schematic.png (PNG copy)>]
+Underfull \hbox (badness 3884) in paragraph at lines 244--251
+\OT1/ptm/m/n/10 by the Flut-ter's De-vel-op-ment Team. The BLoC state
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 244--251
+\OT1/ptm/m/n/10 View-Model) state man-age-ment sys-tem, but uses var-i-ous
+ []
+
+<Images/BLoC_Example.drawio.png, id=27, 452.69125pt x 603.25375pt>
+File: Images/BLoC_Example.drawio.png Graphic file (type png)
+<use Images/BLoC_Example.drawio.png>
+Package pdftex.def Info: Images/BLoC_Example.drawio.png  used on input line 254.
+(pdftex.def)             Requested size: 252.0pt x 335.81313pt.
+<Images/AppWorkflow1.drawio.png, id=28, 549.05125pt x 543.02875pt>
+File: Images/AppWorkflow1.drawio.png Graphic file (type png)
+<use Images/AppWorkflow1.drawio.png>
+Package pdftex.def Info: Images/AppWorkflow1.drawio.png  used on input line 284.
+(pdftex.def)             Requested size: 252.0pt x 249.2328pt.
+[3 <./Images/BLoC_Example.drawio.png> <./Images/AppWorkflow1.drawio.png>]
+Underfull \hbox (badness 1622) in paragraph at lines 306--310
+[]\OT1/ptm/m/n/10 A sim-i-lar ap-proach can be ob-served in the net-work
+ []
+
 (CSB-Group3-ResearchPaper.bbl)
 
 ** Conference Paper **
@@ -343,19 +368,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2 <./Images/BlockDiagram.png> <./Images/Simulation.png> <./Images/Schematic.png (PNG copy)>] (CSB-Group3-ResearchPaper.aux) ) 
+[4
+
+] (CSB-Group3-ResearchPaper.aux) ) 
 Here is how much of TeX's memory you used:
- 4543 strings out of 479334
- 69166 string characters out of 2857084
- 373457 words of memory out of 3000000
- 21917 multiletter control sequences out of 15000+200000
- 442388 words of font info for 110 fonts, out of 3000000 for 9000
+ 4560 strings out of 479334
+ 69591 string characters out of 2857084
+ 373480 words of memory out of 3000000
+ 21931 multiletter control sequences out of 15000+200000
+ 443495 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,14n,78p,306b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CSB-Group3-ResearchPaper.pdf (2 pages, 251401 bytes).
+Output written on CSB-Group3-ResearchPaper.pdf (4 pages, 287831 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
