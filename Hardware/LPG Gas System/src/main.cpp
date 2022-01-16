@@ -1,21 +1,29 @@
 #include <Arduino.h>
 #include <ESP8266WebServer.h>
+#include <ESP8266WiFi.h>
 #include <ArduinoJson.h>
 
-#include "network.h"
+#include "network_config.h"
 #include "api.h"
 #include "constants.h"
+#include "sensor_readings.h"
+#include "basic_functions.h"
 
-void setup(void) {
+ESP8266WebServer rest_server(80);
 
-  network_setup();
+void setup()
+{
+
+  Serial.begin(9600);
+
+  config_network();
 
   config_rest_server_routing();
 
-  http_rest_server.begin();
-  Serial.println("HTTP REST Server Started");
+  start_server();
 }
 
-void loop(void) {
-    http_rest_server.handleClient();
+void loop()
+{
+  rest_server.handleClient();
 }

@@ -14,7 +14,7 @@ class SensorAPI {
     if (port != '0000') {
       url = Uri.parse("$protocol://$host:$port/${SensorConstants.path}");
     } else {
-      url = Uri.parse("$protocol://$host");
+      url = Uri.parse("$protocol://$host/data");
     }
     print("$protocol://$host/${SensorConstants.path}");
     return url;
@@ -22,6 +22,7 @@ class SensorAPI {
 
   Future<String> getSensorReading() async {
     Uri url = constructURI(host, port);
+    print("Request Made");
     try {
       http.Response response = await http
           .get(url)

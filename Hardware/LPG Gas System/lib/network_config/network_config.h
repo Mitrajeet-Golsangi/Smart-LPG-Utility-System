@@ -3,4 +3,4 @@
 
 int init_wifi();
 
-void network_setup();
+void config_network();

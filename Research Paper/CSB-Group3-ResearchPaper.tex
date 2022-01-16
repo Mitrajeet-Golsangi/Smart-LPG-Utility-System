@@ -19,50 +19,50 @@
 \title{IoT based LPG Gas Utility system}
 
 \author{
-    \IEEEauthorblockN{
-        Mitrajeet Golsangi\IEEEauthorrefmark{1},
-        Divija Godse\IEEEauthorrefmark{2},
-        Vivek Ghuge\IEEEauthorrefmark{3},\\
-        Vishwajeet Haralkar\IEEEauthorrefmark{4},
-        Adityaraj Honraopatil\IEEEauthorrefmark{5} and
-        Dr. Vijay Gaikwad\IEEEauthorrefmark{6}
-    }
-    \IEEEauthorblockA{
-        \textit{dept. of Computer Science} \\
-        \textit{Vishwakarma Institute of Technology}\\
-        Pune, India\\
-        Email : \IEEEauthorrefmark{1}mitrajeet.golsangi20@vit.edu,
-        \IEEEauthorrefmark{2}divija.godse20@vit.edu,
-        \IEEEauthorrefmark{3}vivek.ghuge20@vit.edu,\\
-        \IEEEauthorrefmark{4}vishwajeet.haralkar20@vit.edu,
-        \IEEEauthorrefmark{5}adityaraj.honraopatil20@vit.edu,
-        \IEEEauthorrefmark{6}vijay.gaikwad@vit.edu,
-    }
+  \IEEEauthorblockN{
+    Mitrajeet Golsangi\IEEEauthorrefmark{1},
+    Divija Godse\IEEEauthorrefmark{2},
+    Vivek Ghuge\IEEEauthorrefmark{3},\\
+    Vishwajeet Haralkar\IEEEauthorrefmark{4},
+    Adityaraj Honraopatil\IEEEauthorrefmark{5} and
+    Dr. Vijay Gaikwad\IEEEauthorrefmark{6}
+  }
+  \IEEEauthorblockA{
+    \textit{dept. of Computer Science} \\
+    \textit{Vishwakarma Institute of Technology}\\
+    Pune, India\\
+    Email : \IEEEauthorrefmark{1}mitrajeet.golsangi20@vit.edu,
+    \IEEEauthorrefmark{2}divija.godse20@vit.edu,
+    \IEEEauthorrefmark{3}vivek.ghuge20@vit.edu,\\
+    \IEEEauthorrefmark{4}vishwajeet.haralkar20@vit.edu,
+    \IEEEauthorrefmark{5}adityaraj.honraopatil20@vit.edu,
+    \IEEEauthorrefmark{6}vijay.gaikwad@vit.edu,
+  }
 }
 
 
 \maketitle
 
 \begin{abstract}
-    LPG is a powerful and efficient fuel that is primarily
-    used in private cooking areas. LPG is highly combustible
-    and can cause a fire even if it is far away from the
-    source of the leak. The majority of fires are caused by
-    a faulty rubber tube or when the regulator is not turned
-    off. The proposed system is built around a microcontroller
-    that includes gas sensors, GSM, a display, and a buzzer.
-    The gas leak will be detected by the sensor, which will
-    then send the information to the microcontroller. Based
-    on that microcontroller makes a decision and displays a
-    warning message. Another issue is the user not being
-    able to tell the level of LP gas in the cylinder causing
-    problems at the 11th hour. The proposed solution has
-    brought a feasible solution to the same causing the
-    users to monitor the Gas level from their mobile phones.
+  LPG is a powerful and efficient fuel that is primarily
+  used in private cooking areas. LPG is highly combustible
+  and can cause a fire even if it is far away from the
+  source of the leak. The majority of fires are caused by
+  a faulty rubber tube or when the regulator is not turned
+  off. The proposed system is built around a microcontroller
+  that includes gas sensors, GSM, a display, and a buzzer.
+  The gas leak will be detected by the sensor, which will
+  then send the information to the microcontroller. Based
+  on that microcontroller makes a decision and displays a
+  warning message. Another issue is the user not being
+  able to tell the level of LP gas in the cylinder causing
+  problems at the 11th hour. The proposed solution has
+  brought a feasible solution to the same causing the
+  users to monitor the Gas level from their mobile phones.
 \end{abstract}
 
 \begin{IEEEkeywords}
-    LPG, IoT, LPG hazards, LPG monitoring , IoT embedded system
+  LPG, IoT, LPG hazards, LPG monitoring , IoT embedded system
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -118,7 +118,7 @@ regular gas composition of the surrounding atmosphere
 changes. Our project would also use a 4.08mm force
 sensor in combination with the Gas Sensor for
 calculating the weight of the cylinder and notifying
-the user if a certain threshold is crossed.
+the user if a certain threshold is crossed.\cite{[11]}
 We intend to combine these two sensors and create a
 system that would prevent gas leakage and also serve
 as an alert sending device to prevent last minute
@@ -132,20 +132,38 @@ usage. The advantages of the system are:
 As the Weight sensor output is converted to digital
 in the reference system there is a loss of accurate
 data on actually how much level of gas is remaining
-in the cylinder. The proposed systems avoids this
-problem By using the Node MCU which has a built in
+in the cylinder. According to the given paper \cite{[5]}
+Arduino UNO has been employed for a similar system.
+However working with the Arduino UNO development board has
+a certain set of limitations. The proposed system avoids these
+problems by using the Node MCU which has a built in
 ESP8266 WiFi module the cost of the project has been
 reduced By giving the user an application to monitor
 their gas systems the accessibility and control over
 the system have been increased significantly
 
-\section{Methodology}
+\pagebreak
 
+\section{Design of IoT System}
+The project implementation is done on an IoT system. Thus, a
+suitable design of the same was needed. The following figure
+shows the domain model specification of the entire system.
 \begin{Figure}
-    \centering
-    \includegraphics[width=\linewidth]{Images/BlockDiagram.png}
-    \label{block}
-    \figurename{Block Diagram}
+  \centering
+  \includegraphics[width=\linewidth]{./Images/DomainModelPPT.drawio.png}
+  \figurename{Domain Specification}
+\end{Figure}
+
+\section{Methodology}
+The proposed system detects the gas above the gas tube of the cylinder.
+It also provides users with the ability to monitor gas levels in
+LPG cylinders.The following image explains the device component integration
+needed to achieve the same.
+\begin{Figure}
+  \centering
+  \includegraphics[width=\linewidth]{Images/BlockDiagram.png}
+  \label{block}
+  \figurename{Block Diagram}
 \end{Figure}
 The oversimplified block diagram (fig. \ref{block}) allows the users to
 see the basic workflow of the project. The 4051
@@ -159,10 +177,10 @@ the statistics is sent to a host on the local network
 and then is fetched from the user's application to give
 him/her the most accurate data in real time.
 \begin{Figure}
-    \centering
-    \includegraphics[width=\linewidth]{Images/Simulation.png}
-    \label{sim}
-    \figurename{Simulation}
+  \centering
+  \includegraphics[width=\linewidth]{Images/Simulation.png}
+  \label{sim}
+  \figurename{Simulation}
 \end{Figure}
 figure \ref{sim} shows the simulation of the project that
 has been performed on Autodesk TinkerCAD®. Here 2 LCD
@@ -177,22 +195,22 @@ in the surrounding atmosphere.
 \subsection{Hardware}
 \subsubsection{Part Required}
 \begin{itemize}
-    \item Node MCU 0.9 (ESP8266 Module)
-    \item MQ-135 Gas Sensor
-    \item A-52A 5.08mm Gas Sensor
-    \item 4051N Multiplexer IC
-    \item Resistors
-    \item LED
-    \item 15 pin female socket
+  \item Node MCU 0.9 (ESP8266 Module)
+  \item MQ-135 Gas Sensor
+  \item A-52A 5.08mm Force Sensor
+  \item 4051N Multiplexer IC
+  \item Resistors
+  \item LED
+  \item 15 pin female socket
 \end{itemize}
 \subsubsection{PCB Creation}
 After the gathering of required components the team created a
 schematic for the required circuit.
 \begin{Figure}
-    \centering
-    \includegraphics[width=\linewidth]{Images/Schematic.png}
-    \label{scheme}
-    \figurename{Schematics}
+  \centering
+  \includegraphics[width=\linewidth]{Images/Schematic.png}
+  \label{scheme}
+  \figurename{Schematics}
 \end{Figure}
 After completion of the schematic and checking the connections the PCB board
 layout was designed and finalized as shown below
@@ -200,9 +218,9 @@ layout was designed and finalized as shown below
 \subsection{Software}
 \subsubsection{Used Softwares}
 \begin{itemize}
-    \item VS Code IDE
-    \item Platform IO IDE
-    \item Eagle
+  \item VS Code IDE
+  \item Platform IO IDE
+  \item Eagle
 \end{itemize}
 
 \section{Application Creation}
@@ -218,8 +236,8 @@ process is explained in detail in the paper below
 \subsection{Structure}
 The application is segregated into 2 main parts
 \begin{itemize}
-    \item Sensor readings
-    \item Network Configuration
+  \item Sensor readings
+  \item Network Configuration
 \end{itemize}
 
 \textbf{Sensor Readings : }This section displays the collected
@@ -242,18 +260,18 @@ used.
 
 \section{BLoC Architecture ?}
 BLoC abbreviates to Business Logic of Components. This method is
-recommended in the official Flutter documentation by the Flutter’s
+recommended in the official Flutter documentation by the Flutter's
 Development Team. The BLoC state management system is similar to
-the M-V-VM (Model View ViewModel) state management system, but uses
+the M-V-VM (Model View ViewModel) state management system\cite{[12]}, but uses
 various streams in order to achieve the same effect. The concept
 of BLoC is to have a corresponding effect for each state inside the
 application, this is better explained in the figure below.
 
 \begin{Figure}
-    \centering
-    \includegraphics[width=\linewidth]{Images/BLoC_Example.drawio.png}
-    \label{blocFig}
-    \figurename{BLoC Workflow}
+  \centering
+  \includegraphics[width=\linewidth]{Images/BLoC_Example.drawio.png}
+  \label{blocFig}
+  \figurename{BLoC Workflow}
 \end{Figure}
 
 Like displayed in the above figure the UI Screen loads an event on the
@@ -266,10 +284,10 @@ backend. This methodology has several advantages.
 
 \subsection{Advantages of BLoC State Management}
 \begin{enumerate}
-    \item State of application can be known in any point of time
-    \item Testing of the application is easily possible
-    \item Data driven decisions can be made by recording the user behaviour
-    \item Components can be reused making code efficient
+  \item State of application can be known in any point of time
+  \item Testing of the application is easily possible
+  \item Data driven decisions can be made by recording the user behaviour
+  \item Components can be reused making code efficient
 \end{enumerate}
 The application uses two cubits in order to manage its state.
 The main difference between a cubit and a bloc is that the cubits
@@ -280,10 +298,10 @@ only the response of the cubit is a stream and not the input.
 The applications workflow is explained in accordance to the figure:
 
 \begin{Figure}
-    \centering
-    \includegraphics[width=\linewidth]{Images/AppWorkflow1.drawio.png}
-    \label{App Workflow}
-    \figurename{BLoC Workflow}
+  \centering
+  \includegraphics[width=\linewidth]{Images/AppWorkflow1.drawio.png}
+  \label{App Workflow}
+  \figurename{BLoC Workflow}
 \end{Figure}
 
 
@@ -308,6 +326,13 @@ the cubit emits three states the same as the former. These emitted states
 are then caught by the UI components and then those components are rerendered
 to give the user the necessary information.
 
+\section{Conclusion}
+The most common problem in many households of sudden shortage of LPG
+gas which is the most essential component of the kitchen has been there
+for decades, but no one has tried to fix it. This simple system can have
+a great effect not only in the households but also on the larger scale,
+like hotels, restaurants and even mobile kitchens. Even though the system's
+main focus is to
 \bibliographystyle{IEEEtran}
 \bibliography{references.bib}
 

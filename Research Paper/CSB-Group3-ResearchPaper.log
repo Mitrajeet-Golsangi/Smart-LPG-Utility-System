@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.18)  27 DEC 2021 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.5.18)  16 JAN 2022 09:44
 entering extended mode
 **"d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex"
 (d:/VIT Projects/Second Year/1st Semester/EDI/Research Paper/CSB-Group3-ResearchPaper.tex
@@ -296,11 +296,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--76
 
  []
 
-<Images/BlockDiagram.png, id=1, 683.55376pt x 332.24126pt>
-File: Images/BlockDiagram.png Graphic file (type png)
-<use Images/BlockDiagram.png>
-Package pdftex.def Info: Images/BlockDiagram.png  used on input line 146.
-(pdftex.def)             Requested size: 252.0pt x 122.4812pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -308,51 +303,63 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<Images/Simulation.png, id=20, 487.06969pt x 468.24937pt>
+<./Images/DomainModelPPT.drawio.png, id=18, 723.70375pt x 443.6575pt>
+File: ./Images/DomainModelPPT.drawio.png Graphic file (type png)
+<use ./Images/DomainModelPPT.drawio.png>
+Package pdftex.def Info: ./Images/DomainModelPPT.drawio.png  used on input line 153.
+(pdftex.def)             Requested size: 252.0pt x 154.48363pt.
+<Images/BlockDiagram.png, id=20, 683.55376pt x 332.24126pt>
+File: Images/BlockDiagram.png Graphic file (type png)
+<use Images/BlockDiagram.png>
+Package pdftex.def Info: Images/BlockDiagram.png  used on input line 164.
+(pdftex.def)             Requested size: 252.0pt x 122.4812pt.
+<Images/Simulation.png, id=21, 487.06969pt x 468.24937pt>
 File: Images/Simulation.png Graphic file (type png)
 <use Images/Simulation.png>
-Package pdftex.def Info: Images/Simulation.png  used on input line 163.
+Package pdftex.def Info: Images/Simulation.png  used on input line 181.
 (pdftex.def)             Requested size: 252.0pt x 242.26215pt.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 168.
+
+Underfull \vbox (badness 5050) has occurred while \output is active []
+
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 186.
  (C:\Users\mitra\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Underfull \hbox (badness 6348) in paragraph at lines 189--191
+Underfull \hbox (badness 6348) in paragraph at lines 207--209
  \OT1/ptm/m/it/10 2) PCB Cre-ation: [][] \OT1/ptm/m/n/10 Af-ter the gath-er-ing of re-quired
  []
 
-<Images/Schematic.png, id=21, 331.9602pt x 243.309pt>
+<Images/Schematic.png, id=22, 331.9602pt x 243.309pt>
 File: Images/Schematic.png Graphic file (type png)
 <use Images/Schematic.png>
-Package pdftex.def Info: Images/Schematic.png  used on input line 193.
+Package pdftex.def Info: Images/Schematic.png  used on input line 211.
 (pdftex.def)             Requested size: 252.0pt x 184.70514pt.
 
-Underfull \hbox (badness 1910) in paragraph at lines 197--199
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2 <./Images/DomainModelPPT.drawio.png> <./Images/BlockDiagram.png> <./Images/Simulation.png>]
+Underfull \hbox (badness 1910) in paragraph at lines 215--217
 []\OT1/ptm/m/n/10 After com-ple-tion of the schematic and check-ing the
  []
 
-[2 <./Images/BlockDiagram.png> <./Images/Simulation.png> <./Images/Schematic.png (PNG copy)>]
-Underfull \hbox (badness 3884) in paragraph at lines 244--251
+
+Underfull \hbox (badness 3884) in paragraph at lines 262--269
 \OT1/ptm/m/n/10 by the Flut-ter's De-vel-op-ment Team. The BLoC state
  []
 
-
-Underfull \hbox (badness 1466) in paragraph at lines 244--251
-\OT1/ptm/m/n/10 View-Model) state man-age-ment sys-tem, but uses var-i-ous
- []
-
-<Images/BLoC_Example.drawio.png, id=27, 452.69125pt x 603.25375pt>
+<Images/BLoC_Example.drawio.png, id=29, 452.69125pt x 603.25375pt>
 File: Images/BLoC_Example.drawio.png Graphic file (type png)
 <use Images/BLoC_Example.drawio.png>
-Package pdftex.def Info: Images/BLoC_Example.drawio.png  used on input line 254.
+Package pdftex.def Info: Images/BLoC_Example.drawio.png  used on input line 272.
 (pdftex.def)             Requested size: 252.0pt x 335.81313pt.
-<Images/AppWorkflow1.drawio.png, id=28, 549.05125pt x 543.02875pt>
+[3 <./Images/Schematic.png (PNG copy)> <./Images/BLoC_Example.drawio.png>]
+<Images/AppWorkflow1.drawio.png, id=34, 549.05125pt x 543.02875pt>
 File: Images/AppWorkflow1.drawio.png Graphic file (type png)
 <use Images/AppWorkflow1.drawio.png>
-Package pdftex.def Info: Images/AppWorkflow1.drawio.png  used on input line 284.
+Package pdftex.def Info: Images/AppWorkflow1.drawio.png  used on input line 302.
 (pdftex.def)             Requested size: 252.0pt x 249.2328pt.
-[3 <./Images/BLoC_Example.drawio.png> <./Images/AppWorkflow1.drawio.png>]
-Underfull \hbox (badness 1622) in paragraph at lines 306--310
+
+Underfull \hbox (badness 1622) in paragraph at lines 324--328
 []\OT1/ptm/m/n/10 A sim-i-lar ap-proach can be ob-served in the net-work
  []
 
@@ -368,21 +375,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[4
-
-] (CSB-Group3-ResearchPaper.aux) ) 
+[4 <./Images/AppWorkflow1.drawio.png>] (CSB-Group3-ResearchPaper.aux) ) 
 Here is how much of TeX's memory you used:
- 4560 strings out of 479334
- 69591 string characters out of 2857084
- 373480 words of memory out of 3000000
- 21931 multiletter control sequences out of 15000+200000
+ 4570 strings out of 479334
+ 69831 string characters out of 2857084
+ 373491 words of memory out of 3000000
+ 21939 multiletter control sequences out of 15000+200000
  443495 words of font info for 111 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,14n,78p,306b,340s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/mitra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on CSB-Group3-ResearchPaper.pdf (4 pages, 287831 bytes).
+Output written on CSB-Group3-ResearchPaper.pdf (4 pages, 310242 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
